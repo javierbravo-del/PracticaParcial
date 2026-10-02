@@ -6,6 +6,6 @@ import utec.practicaparcial.MentorProfile.Domain.MentorProfile;
 import java.util.Optional;
 
 public interface MentorProfileRespository extends JpaRepository<MentorProfile,Long> {
-    Optional<MentorProfile> findByUsernme(String usernme);
+    Optional<MentorProfile> findByUser_username(String username);
     boolean existsById(Long userId);
 }
