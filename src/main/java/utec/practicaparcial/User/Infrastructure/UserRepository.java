@@ -1,4 +1,4 @@
-package utec.practicaparcial.User.Repository;
+package utec.practicaparcial.User.Infrastructure;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import utec.practicaparcial.User.Domain.User;

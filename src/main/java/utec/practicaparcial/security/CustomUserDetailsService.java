@@ -3,7 +3,7 @@ package utec.practicaparcial.security;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import utec.practicaparcial.User.Domain.User;
-import utec.practicaparcial.User.Repository.UserRepository;
+import utec.practicaparcial.User.Infrastructure.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
